@@ -1,0 +1,86 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	min-width:1200px;
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+header {
+    background-image: url(../images/89.jpg);
+    background-size: auto;
+    text-align: center;
+    position: relative;
+}
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none;
+    font-family: "华文行楷";
+    font-size: 30px;
+}
+
+a:hover {
+    color: #0F0;
+}
+
+
+
+
+
+.word1 {
+    color: #F00;
+    font-family: "华文行楷";
+    font-size: 45px;
+    text-shadow: 10px 10px 10px grey, 12px 12px 12px #4AA2E5;
+    margin: 0 auto;
+    position: relative;
+}
+
+.picture1 {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #99FFCC;
+    position: absolute;
+    top: 10px;
+    right: 93%;
+}
+
+.picture2 {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #99FFCC;
+    position: absolute;
+    top: 10px;
+    left: 93%;
+}
+
+.kuai1 {
+    border: 2px dotted #000;
+    width: 1034px;
+    height: 39px;
+    margin: -2px auto;
+    background-color: #9DA760;
+}
+
+.kuai1 ul li {
+    float: left;
+    padding-left: 56px;
+    padding-top: 4px;
+    margin: 3px auto;
+}

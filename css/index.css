@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@font-face{
+	font-family:华文行楷;
+	src:url(../font/huawenxingkai.ttf);
+}
+body {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	min-width:1200px;
+}
+
+
+header {
+    background-image: url(../images/89.jpg);
+    background-size: auto;
+    text-align: center;
+    position: relative;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    text-indent: 2em;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none;
+    font-family: "华文行楷";
+    font-size: 30px;
+}
+
+a:hover {
+    color: #0F0;
+}
+
+.word1 {
+    color: #F00;
+    font-family: "华文行楷";
+    font-size: 45px;
+    text-shadow: 10px 10px 10px grey, 12px 12px 12px #4AA2E5;
+    margin: 0 auto;
+    position: relative;
+}
+
+.picture1 {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #99FFCC;
+    position: absolute;
+    top: 10px;
+    right: 93%;
+}
+
+.picture2 {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #99FFCC;
+    position: absolute;
+    top: 10px;
+    left: 93%;
+}
+
+.picture3 {
+    width: 328px;
+    height: 220px;
+    float: left;
+    border-radius: 50px/100px;
+    margin-right: 29px;
+    margin-bottom: 5px;
+}
+
+.picture4 {
+    width: 328px;
+    height: 220px;
+    float: right;
+    border-radius: 50px/100px;
+    margin-left: 29px;
+    margin-bottom: 5px;
+}
+
+.kuai1 {
+    border: 2px dotted #000;
+    width: 1034px;
+    height: 39px;
+    margin: -2px auto;
+    background-color: #9DA760;
+}
+
+.kuai1 ul li {
+    float: left;
+    padding-left: 56px;
+    padding-top: 4px;
+    margin: 3px auto;
+}
+
+.wenzi1 {
+    font-size: 36px;
+    font-family: "华文行楷";
+}
+
+.shi1 p {
+    text-align: center;
+    font-family: "华文行楷";
+    color: #000;
+    font-size: 30px;
+}
+
+.shi2 {
+    font-size: 36px;
+    color: #F00;
+}
+
+.kuai2 {
+    text-align: center;
+}
+
+.kuai2 p {
+    position: relative;
+    float: left;
+    padding-left: 100px;
+    margin: -17px;
+    top: 55px;
+}
+
+.kuai2 li {
+    text-align: right;
+    padding-right: 149px;
+    padding-top: 8px;
+}
+
+.kuai3 {
+    float: left;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top: 26%;
+    left: 2%;
+    font-family: "华文行楷";
+    font-size: 60px;
+}
+
+.kuai4 {
+    float: right;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top: 26%;
+    right: 2%;
+    font-family: "华文行楷";
+    font-size: 60px;
+}

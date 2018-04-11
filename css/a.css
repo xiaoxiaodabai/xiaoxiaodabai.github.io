@@ -1,0 +1,75 @@
+/* CSS Document */
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    text-indent: 2em;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+@font-face{
+	font-family:华文行楷;
+	src:url(../font/huawenxingkai.ttf);
+}
+.picture4 {
+    width: 220px;
+    height: 220px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 29px;
+    margin-bottom: 5px;
+    border: 2px dotted #99FF66;
+    box-shadow: 11px 11px 11px 2px #999999;
+}
+
+.picture5 {
+    width: 220px;
+    height: 220px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 29px;
+    margin-bottom: 5px;
+    border: 2px dotted #99FF66;
+    box-shadow: 11px 11px 11px 2px #999999;
+}
+
+.picture3 {
+    width: 220px;
+    height: 220px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 29px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 2px dotted #99FF66;
+    box-shadow: 11px 11px 11px 2px #999999;
+}
+
+.zi1 {
+    font-family: "华文行楷";
+    font-size: 40px;
+}
+
+.kuai3 {
+    float: left;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top: 26%;
+    left: 2%;
+    font-family: "华文行楷";
+    font-size: 60px;
+}
+
+.kuai4 {
+    float: right;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top: 26%;
+    right: 2%;
+    font-family: "华文行楷";
+    font-size: 60px;
+}

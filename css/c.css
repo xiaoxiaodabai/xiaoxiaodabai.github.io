@@ -1,0 +1,100 @@
+/* CSS Document */
+
+
+@font-face{
+	font-family:华文行楷;
+	src:url(../font/huawenxingkai.ttf);
+}
+h2 {
+    font-family: "华文行楷";
+    font-size: 32px;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    text-indent: 2em;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+article a {
+    display: inline-block;
+}
+
+dl {
+    display: none;
+}
+.picture23 {
+    width: 814px;
+    height: 210px;
+}
+:target {
+    display: block;
+}
+
+.picture24 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted #99FF66;
+    float: left;
+}
+
+.picture25 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted #99FF66;
+    float: right;
+}
+
+.picture26 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted #99FF66;
+    float: left;
+}
+
+.picture27 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted #99FF66;
+    float: right;
+}
+
+.one {
+    width: 195px;
+    height: 200px;
+    position: absolute;
+    top: 36px;
+    left: 15px;
+}
+
+.two {
+    width: 195px;
+    height: 200px;
+    position: absolute;
+    top: 36px;
+    left: 210px;
+}
+
+.three {
+    width: 195px;
+    height: 200px;
+    position: absolute;
+    top: 36px;
+    left: 405px;
+}
+
+.four {
+    width: 195px;
+    height: 200px;
+    position: absolute;
+    top: 36px;
+    left: 598px;
+}
